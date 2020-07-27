@@ -1,0 +1,6 @@
+#!/usr/bin/escript -c
+
+main(_) ->
+  projet:start(3),
+  timer:sleep(1000).
+ 

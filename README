@@ -1,0 +1,22 @@
+Ce qui est fait: *Communication entre N processus 
+			*Envoi et reception de messages
+		 *Evenement interne
+		 *Calcul des estampilles
+		 *Affichage 
+
+
+
+Indications pour le test dans les commentaires du code.
+
+Le test par défaut est fait sur l'echange entre 3 processus:
+
+Ainsi compilation et execution sur erlang avec :
+	>c(projet).
+	>projet:start(3)         //N.B: Ne pas lancer avec un nombre inférieur à 3 sans changer le scénario 
+
+ou	%erlc projet.erl
+	%escript -c script
+
+Pour tester d'autres scénarios : Modification dans la fonction test (Indications en commentaire)
+				 Aprés les modifications nécessaires vous pouvez appelez avec start(N)
+                                 
